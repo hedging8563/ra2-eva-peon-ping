@@ -5,7 +5,7 @@ Command & Conquer: Red Alert 2 EVA 播报语音，用于 [peon-ping](https://git
 ## 一键安装
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hedging8563/ra2-eva-peon-ping/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hedging8563/ra2-eva-peon-ping/master/install.sh | bash
 ```
 
 ## 音效映射

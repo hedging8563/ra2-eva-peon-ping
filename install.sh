@@ -3,7 +3,7 @@
 #  Red Alert 2 EVA 音效包 一键安装脚本
 #  为 Claude Code (peon-ping) 配置红警2 EVA 播报语音
 #
-#  用法: curl -fsSL https://raw.githubusercontent.com/hedging8563/ra2-eva-peon-ping/main/install.sh | bash
+#  用法: curl -fsSL https://raw.githubusercontent.com/hedging8563/ra2-eva-peon-ping/master/install.sh | bash
 # ═══════════════════════════════════════════════════════
 
 set -e
@@ -35,8 +35,8 @@ trap "rm -rf $TMP_DIR" EXIT
 if command -v git &>/dev/null; then
     git clone --depth 1 "$REPO.git" "$TMP_DIR/repo" 2>/dev/null
 else
-    curl -fsSL "$REPO/archive/refs/heads/main.tar.gz" | tar xz -C "$TMP_DIR"
-    mv "$TMP_DIR/ra2-eva-peon-ping-main" "$TMP_DIR/repo"
+    curl -fsSL "$REPO/archive/refs/heads/master.tar.gz" | tar xz -C "$TMP_DIR"
+    mv "$TMP_DIR/ra2-eva-peon-ping-master" "$TMP_DIR/repo"
 fi
 
 echo "✓ 下载完成"
