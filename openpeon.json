@@ -1,0 +1,78 @@
+{
+  "cesp_version": "1.0",
+  "name": "ra2_eva",
+  "display_name": "Red Alert 2 EVA",
+  "version": "1.0.0",
+  "description": "Command & Conquer: Red Alert 2 - EVA System Voice + Classic Unit Lines",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/battle control online.wav", "label": "Battle Control Online" },
+        { "file": "sounds/establishing battle field control stand by.wav", "label": "Establishing Battlefield Control, Stand By" },
+        { "file": "sounds/soviet_battle control online.wav", "label": "Soviet: Battle Control Online" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/construction complete.wav", "label": "Construction Complete" },
+        { "file": "sounds/unit ready.wav", "label": "Unit Ready" },
+        { "file": "sounds/new construction options.wav", "label": "New Construction Options" },
+        { "file": "sounds/reinforcements have arrived.wav", "label": "Reinforcements Have Arrived" },
+        { "file": "sounds/unit promoted.wav", "label": "Unit Promoted" },
+        { "file": "sounds/tech building captured.wav", "label": "Tech Building Captured" },
+        { "file": "sounds/soviet_construction complete.wav", "label": "Soviet: Construction Complete" },
+        { "file": "sounds/soviet_unit ready.wav", "label": "Soviet: Unit Ready" },
+        { "file": "sounds/Geva_ConCompleteb.wav", "label": "GDI: Construction Complete" },
+        { "file": "sounds/Geva_ReinfHavArriv.wav", "label": "GDI: Reinforcements Have Arrived" },
+        { "file": "sounds/tanya-shake it baby.wav", "label": "Tanya: Shake It Baby" },
+        { "file": "sounds/tanya-yeah baby.wav", "label": "Tanya: Yeah Baby" },
+        { "file": "sounds/navy seal-whos your daddy.wav", "label": "Navy SEAL: Who's Your Daddy" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/incoming transmission.wav", "label": "Incoming Transmission" },
+        { "file": "sounds/soviet_incoming transmission.wav", "label": "Soviet: Incoming Transmission" },
+        { "file": "sounds/kirov-kirov reporting.wav", "label": "Kirov Reporting" },
+        { "file": "sounds/apoc-soviet power supreme.wav", "label": "Soviet Power Supreme" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/incoming transmission.wav", "label": "Incoming Transmission" },
+        { "file": "sounds/our ally is under attack.wav", "label": "Our Ally Is Under Attack" },
+        { "file": "sounds/soviet_incoming transmission.wav", "label": "Soviet: Incoming Transmission" },
+        { "file": "sounds/Geva_AllyUndAttack.wav", "label": "GDI: Ally Under Attack" },
+        { "file": "sounds/tanya-wheres party.wav", "label": "Tanya: Where's the Party" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/unit lost.wav", "label": "Unit Lost" },
+        { "file": "sounds/unit sold.wav", "label": "Unit Sold" },
+        { "file": "sounds/building infiltrated.wav", "label": "Building Infiltrated" },
+        { "file": "sounds/tech building lost.wav", "label": "Tech Building Lost" },
+        { "file": "sounds/soviet_unit lost.wav", "label": "Soviet: Unit Lost" },
+        { "file": "sounds/Geva_UnitLosta.wav", "label": "GDI: Unit Lost" },
+        { "file": "sounds/Neva_UnitLosta.wav", "label": "Nod: Unit Lost" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/insufficient funds.wav", "label": "Insufficient Funds" },
+        { "file": "sounds/low power.wav", "label": "Low Power" },
+        { "file": "sounds/soviet_insufficient funds.wav", "label": "Soviet: Insufficient Funds" },
+        { "file": "sounds/soviet_low power.wav", "label": "Soviet: Low Power" },
+        { "file": "sounds/warning nuclear missile launched.wav", "label": "Warning: Nuclear Missile Launched" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/you have resigned.wav", "label": "You Have Resigned" },
+        { "file": "sounds/battle control terminated.wav", "label": "Battle Control Terminated" },
+        { "file": "sounds/soviet_battle control terminated.wav", "label": "Soviet: Battle Control Terminated" },
+        { "file": "sounds/tanya-hahahahahaha.wav", "label": "Tanya: Hahahaha" }
+      ]
+    }
+  }
+}
